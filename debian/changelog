@@ -1,0 +1,5 @@
+pyxid (1.0-1) unstable; urgency=low
+
+  * Initial release (Closes: #607213)
+
+ -- Yaroslav Halchenko <debian@onerussian.com>  Sat, 28 May 2011 11:19:52 -0400

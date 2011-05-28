@@ -1,0 +1,23 @@
+Source: pyxid
+Section: python
+Priority: optional
+Maintainer: NeuroDebian Team <team@neuro.debian.net>
+Uploaders: Yaroslav Halchenko <debian@onerussian.com>, Michael Hanke <michael.hanke@gmail.com>
+Build-Depends: debhelper (>= 7.0.50~), python (>= 2.6), python-support (>= 0.6), python-setuptools (>= 0.6)
+Standards-Version: 3.9.2
+Homepage: https://github.com/cedrus-opensource/pyxid
+XS-Vcs-Git: git://git.debian.org/git/pkg-exppsy/pyxid.git
+XS-Vcs-Browser: http://git.debian.org/?p=pkg-exppsy/pyxid.git
+
+
+Package: python-pyxid
+Architecture: all
+Depends: ${python:Depends}, ${misc:Depends}
+Description: interface for Cedrus XID and StimTracker devices
+ pyxid is a Python library for interfacing with Cedrus XID (eXperiment
+ Interface Device) and StimTracker devices. XID devices are used in
+ software such as SuperLab, Presentation, and ePrime for receiving
+ input as part of stimulus/response testing experiments.
+ .
+ pyxid handles all of the low level device handling for XID devices in
+ Python projects.

@@ -1,0 +1,3 @@
+version=3
+opts="filenamemangle=s/.*\/(.*)/pyxid-$1\.tar\.gz/" \
+  http://github.com/cedrus-opensource/pyxid/downloads .*tarball/release/([\d\.a-z]+)
