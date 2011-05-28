@@ -3,7 +3,7 @@ Section: python
 Priority: optional
 Maintainer: NeuroDebian Team <team@neuro.debian.net>
 Uploaders: Yaroslav Halchenko <debian@onerussian.com>, Michael Hanke <michael.hanke@gmail.com>
-Build-Depends: debhelper (>= 7.0.50~), python (>= 2.6), python-support (>= 0.6), python-setuptools (>= 0.6)
+Build-Depends: debhelper (>= 7.0.50~), python (>= 2.5), python-support (>= 0.6), python-setuptools (>= 0.6)
 Standards-Version: 3.9.2
 Homepage: https://github.com/cedrus-opensource/pyxid
 XS-Vcs-Git: git://git.debian.org/git/pkg-exppsy/pyxid.git
