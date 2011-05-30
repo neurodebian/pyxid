@@ -1,3 +1,4 @@
-Source: pyxid
-Suggests: python-pyxid
+Remove: pyxid
+Format: plain
 Tasks: debian-science/psychophysics
+Suggests: python-pyxid
